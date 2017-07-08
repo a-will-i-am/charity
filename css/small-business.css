@@ -1,0 +1,164 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*Header-------*/
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+    float: right;
+
+}
+
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.row .carousel-holder{
+    width: 100%;
+    margin: auto;
+}
+
+/*Center of the image slider --- come back */
+.col-md-12{
+  margin-left: 170px;
+}
+
+h1
+h2
+h3
+h4{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*statement div*/
+
+.statement h1 {
+  text-align: center;
+}
+
+
+/* side bar code--------------------------
+
+#tabs .ui-tabs-active {
+  background: #808080;
+  padding-left: 1px;
+  padding-right: 5px;
+}
+
+#tabs li {
+    display: block;
+}
+
+#tabs li:hover {
+    background: #808080;
+    padding-left: 1px;
+    padding-right: 5px;
+}
+
+.ui-tabs-vertical {
+  width: 55em;
+}
+
+.ui-tabs-vertical .ui-tabs-nav {
+  padding: .2em .1em .2em .2em;
+  float: left;
+  width: 12em;
+  background-color: #000000;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  text-align: left;
+  padding-right: 20px;
+}
+  .ui-tabs-vertical .ui-tabs-nav li {
+  clear: left; width: 100%;
+  border-bottom-width: 1px !important;
+  border-right-width: 0 !important;
+  margin: 0 -1px .2em 0;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a {
+  display:block; text-decoration: none;
+  color: #ffffff;
+  list-style-type: none;
+  font-size: 18px;
+  }
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    padding-bottom: 0;
+    padding-right: .1em;
+    border-right-width: 1px;
+  }
+  .ui-tabs-vertical .ui-tabs-panel {
+    padding: 1em;
+    float: right;
+    width: 40em;
+  }
+
+/* Kitchen Html ----*/
+
+.kitchen {
+    width: 100%;
+
+}
+
+.kitchen h3 {
+  text-align: center;
+}
+
+.kitchen .col-sm-8 {
+  padding: 30px;
+  margin-left: 150px;
+  width: 75%;
+  display: block;
+}
+
+
+/*footer---------------------*/
+
+.footer-trim{
+    height: 10px;
+    width: 100%;
+    background-color: #ae2a22;
+
+}
+
+footer {
+  width: 100%;
+
+  background-color: #f2eddd;
+  color: #000000;
+  font-size: 16px;
+
+}
+
+footer a {
+  text-decoration: none;
+  display: inline-block;
+  color: #ae2a22;
+
+}
+
+a:hover {
+  color: #761d18;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
